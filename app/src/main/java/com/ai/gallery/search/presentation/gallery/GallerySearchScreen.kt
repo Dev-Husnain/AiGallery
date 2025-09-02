@@ -143,14 +143,6 @@ fun GallerySearchScreen(
                         )
                     }
 
-                    // Error message
-                    uiState.error?.let { error ->
-                        ErrorCard(
-                            error = error,
-                            onDismiss = viewModel::clearError
-                        )
-                    }
-
                     // Results grid
                     val displayImages =
                         if (searchQuery.isNotBlank() && uiState.searchResults.isNotEmpty()) {
@@ -160,12 +152,19 @@ fun GallerySearchScreen(
                         } else {
                             emptyList()
                         }
-
                     if (displayImages.isEmpty() && !uiState.isIndexing) {
-                        EmptyStateView(
-                            hasSearchQuery = searchQuery.isNotBlank(),
-                            searchMode = searchMode
-                        )
+                        // Error message
+                        uiState.error?.let { error ->
+                            ErrorCard(
+                                error = error,
+                                onDismiss = viewModel::clearError
+                            )
+                        }?:run {
+                            EmptyStateView(
+                                hasSearchQuery = searchQuery.isNotBlank(),
+                                searchMode = searchMode
+                            )
+                        }
                     } else {
                         ImageGrid(
                             images = displayImages,

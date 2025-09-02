@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88044d32-d7af-4e96-bf4b-20d6e35cf64a" name="Changes" comment="" />
+    <list default="true" id="88044d32-d7af-4e96-bf4b-20d6e35cf64a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ai/gallery/search/presentation/gallery/GallerySearchScreen.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ai/gallery/search/presentation/gallery/GallerySearchScreen.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,7 +24,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=Default, isTemplate=false, identifier=serial=192.168.100.26:5555;connection=001a0146)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=Default, isTemplate=false, identifier=serial=192.168.100.26:5555;connection=c006f1e0)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -57,20 +60,25 @@
     <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="tensor_flow" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Dev-Husnain"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Dev-Husnain&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:/Dev-Husnain/AiGallery.git",
-    "accountId": "acd6284a-0221-418a-af8f-baa71dabca21"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:/Dev-Husnain/AiGallery.git&quot;,
+    &quot;accountId&quot;: &quot;acd6284a-0221-418a-af8f-baa71dabca21&quot;
   }
-}]]></component>
+}</component>
   <component name="KotlinCodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
@@ -81,21 +89,22 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Android App.app.executor": "Run",
-    "ApkExportedModule": "AiGallery.app",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "PROJECT_TRUSTED_KEY": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Android App.app.executor&quot;: &quot;Run&quot;,
+    &quot;ApkExportedModule&quot;: &quot;AiGallery.app&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;PROJECT_TRUSTED_KEY&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="K2MoveDeclarationsDialog.RECENT_PACKAGE_KEY">
       <recent name="com.ai.gallery.search.presentation.gallery" />
